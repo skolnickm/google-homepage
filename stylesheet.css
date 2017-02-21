@@ -1,0 +1,54 @@
+#logo {
+  position: absolute;
+  top: 16%;
+  left: 43%;
+  margin-left: -(X/2)px;
+  margin-top: -(Y/2)px;
+  padding-top: 50px;
+}
+
+input {
+  position: absolute;
+  height: 40px;
+  width: 600px;
+  top: 34%;
+  left: 34%;
+  border-radius: 0%;
+  box-shadow: 0px 1px #ccc;
+  border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+input:hover {
+  box-shadow: 1.0px 2px 1.0px 1.0px #d3d3d3;
+}
+
+input[type="text"]:focus {
+  box-shadow: 1.0px 2px 1.0px 1.0px #d3d3d3;
+}
+
+#signinbutton {
+  background-color: blue;
+  color: white;
+}
+
+.button{
+  background-color: #f2f2f2;
+}
